@@ -1,3 +1,4 @@
+import { CartService } from './services/cart.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -51,7 +52,7 @@ import { CartComponent } from './pages/cart/cart.component';
     MatSnackBarModule,
     MatIconModule,
   ],
-  providers: [],
+  providers: [CartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

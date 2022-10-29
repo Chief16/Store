@@ -8,9 +8,9 @@
                 <p>Description</p>
             </div>
             <div class="flex justify-between">
-                <span class="test-red-400">{{ '150' | currency: 'INR' }}</span>
+                <span class="test-red-400">{{ product?.price | currency: 'INR' }}</span>
                 <button>
-                    <mat-icon class="text-gray-500">shopping_cart</mat-icon>
+                    <mat-icon class="text-gray-500" (click)="addProductToCart()">shopping_cart</mat-icon>
                 </button>
             </div>
         </div>
