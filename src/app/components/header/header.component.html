@@ -7,25 +7,25 @@
         <div class="p-3 divide-y divide-solid">
             <div class="pb-3 flex justify-between">
                 <span class="mr-16">1 Items</span>
-                <a routerLink="cart">View Cart</a>
+                <a routerLink="cart" routerLink="/cart">View Cart</a>
             </div>
             <div class="py-3">
                 <div class="flex justify-between font-light mb-2">
                     Keyboard x 1
-                    <span class="font-bold">{{ "150" | currency }}</span>
+                    <span class="font-bold">{{ "150" | currency: 'INR' }}</span>
                 </div>
                 <div class="flex justify-between font-light mb-2">
                     Keyboard x 1
-                    <span class="font-bold">{{ "150" | currency }}</span>
+                    <span class="font-bold">{{ "150" | currency: 'INR' }}</span>
                 </div>
                 <div class="flex justify-between font-light mb-2">
                     Keyboard x 1
-                    <span class="font-bold">{{ "150" | currency }}</span>
+                    <span class="font-bold">{{ "150" | currency: 'INR' }}</span>
                 </div>
             </div>
             <div class="flex justify-between font-light py-3">
                 Total
-                <span class="font-bold">{{ "450" | currency }}</span>
+                <span class="font-bold">{{ "450" | currency: 'INR' }}</span>
             </div>
             <div class="pt-3 flex justify-between">
                 <button class="bg-rose-600 text-white rounded-full w-9 h-8">
